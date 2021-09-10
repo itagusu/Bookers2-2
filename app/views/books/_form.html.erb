@@ -1,0 +1,10 @@
+<h1>New book</h1>
+
+<%= form_with model: book, local:true do |f| %>
+  title<br>
+  <%= f.text_field :title %><br>
+  opinion<br>
+  <%= f.text_field :body %><br>
+  <%= f.submit "toukou" %>
+<% end %>
+
